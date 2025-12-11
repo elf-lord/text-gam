@@ -71,11 +71,12 @@ def main(stdscr: window):
 
     while not window_should_close:
         stdscr.clear()
+        art_asset = assets.get(current_node.art, '')
         if current_node.is_ending:
-            stdscr.addstr(assets[current_node.art])
+            stdscr.addstr(art_asset)
             stdscr.addstr("Press q to exit", curses.A_BOLD | curses.A_UNDERLINE)
         else:
-            stdscr.addstr(assets[current_node.art])
+            stdscr.addstr(art_asset)
             stdscr.addstr(current_node.character, curses.A_BOLD)
             stdscr.addstr('\n')
             stdscr.addstr(current_node.phrase)
