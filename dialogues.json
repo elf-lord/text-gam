@@ -2,27 +2,322 @@
 	{
 		"id": 0,
 		"character": "Aboba",
-		"phrase": "I'm hungry...\nI can smell some buttery chicken around",
+		"art": "aboba.txt",
+		"is_ending": false,
+		"phrase": "I'm hungry... I can smell buttery chicken somewhere. We should find it.",
 		"choices": [
-			{
-				"answer": "Ok...",
-				"next_id": 1
-			},
-			{
-				"answer": "Let's find it!",
-				"next_id": 1
-			}
+			{ "answer": "Sure, let's look for it.", "next_id": 1 },
+			{ "answer": "That's suspiciously specific.", "next_id": 1 }
 		]
 	},
 	{
 		"id": 1,
 		"character": "Null",
-		"phrase": "...",
+		"art": "null.txt",
+		"is_ending": false,
+		"phrase": "Hello. I am Null. I was not meant to exist, yet here I am.",
 		"choices": [
-			{
-				"answer": "...",
-				"next_id": 0
-			}
+			{ "answer": "Did you just appear out of thin air?", "next_id": 2 },
+			{ "answer": "Are you dangerous?", "next_id": 2 }
 		]
+	},
+	{
+		"id": 2,
+		"character": "Null",
+		"art": "null.txt",
+		"is_ending": false,
+		"phrase": "The world is unstable. Someone forgot to initialize half the variables.\nProceed with caution… or don't. I don’t care.",
+		"choices": [
+			{ "answer": "Let's continue.", "next_id": 3 },
+			{ "answer": "Who are you REALLY?", "next_id": 40 }
+		]
+	},
+	{
+		"id": 40,
+		"character": "Null",
+		"art": "null.txt",
+		"is_ending": false,
+		"phrase": "Define… myself? How bold. What do you think I am?",
+		"choices": [
+			{ "answer": "You're a friend.", "next_id": 41 },
+			{ "answer": "You're a mistake.", "next_id": 42 }
+		]
+	},
+	{
+		"id": 41,
+		"character": "Null",
+		"art": "null.txt",
+		"is_ending": false,
+		"phrase": "A friend…? That is a new role for me. Very well, I will guide you kindly.",
+		"choices": [
+			{ "answer": "Lead the way.", "next_id": 3 }
+		]
+	},
+	{
+		"id": 42,
+		"character": "Null",
+		"art": "null.txt",
+		"is_ending": false,
+		"phrase": "A mistake… yes. That feels correct. I will guide you in silence.",
+		"choices": [
+			{ "answer": "Ominous, but okay.", "next_id": 3 }
+		]
+	},
+	{
+		"id": 3,
+		"character": "Cube",
+		"art": "cube.txt",
+		"is_ending": false,
+		"phrase": "I am Cube, guardian of the crossroads. What is your pursuit?",
+		"choices": [
+			{ "answer": "Friendship.", "next_id": 4 },
+			{ "answer": "Power.", "next_id": 10 },
+			{ "answer": "Snacks.", "next_id": 7 },
+			{ "answer": "[REDACTED OPTION]", "next_id": 50 },
+			{ "answer": "Curiosity.", "next_id": 60 }
+		]
+	},
+	{
+		"id": 4,
+		"character": "Aboba",
+		"art": "aboba.txt",
+		"is_ending": false,
+		"phrase": "Friendship? That sounds nice actually.",
+		"choices": [
+			{ "answer": "Let's find someone friendly.", "next_id": 5 }
+		]
+	},
+	{
+		"id": 5,
+		"character": "Forest Spirit",
+		"art": "forest_spirit.txt",
+		"is_ending": false,
+		"phrase": "Welcome, wanderers. Friendship is the purest path. But sincerity must be tested.",
+		"choices": [
+			{ "answer": "We mean no harm.", "next_id": 6 },
+			{ "answer": "We're just hungry.", "next_id": 6 }
+		]
+	},
+	{
+		"id": 6,
+		"character": "Forest Spirit",
+		"art": "forest_spirit.txt",
+		"is_ending": false,
+		"phrase": "Honesty is good… even if it’s about food.\nYour kindness will guide you.",
+		"choices": [
+			{ "answer": "Continue forward.", "next_id": 15 }
+		]
+	},
+	{
+		"id": 7,
+		"character": "Aboba",
+		"art": "aboba.txt",
+		"is_ending": false,
+		"phrase": "Finally, someone understands my priorities!",
+		"choices": [
+			{ "answer": "Search for snacks.", "next_id": 8 }
+		]
+	},
+	{
+		"id": 8,
+		"character": "Null",
+		"art": "null.txt",
+		"is_ending": false,
+		"phrase": "Detecting edible objects. Warning: 73% probability of disappointment.",
+		"choices": [
+			{ "answer": "Check anyway.", "next_id": 9 },
+			{ "answer": "Ignore Null and proceed.", "next_id": 9 }
+		]
+	},
+	{
+		"id": 9,
+		"character": "Snack Goblin",
+		"art": "snack_goblin.txt",
+		"is_ending": false,
+		"phrase": "Snacks? You seek snacks? Then solve my riddle! Actually no, I'm lazy. Just take this map.",
+		"choices": [
+			{ "answer": "Take the map.", "next_id": 15 }
+		]
+	},
+	{
+		"id": 10,
+		"character": "Aboba",
+		"art": "aboba.txt",
+		"is_ending": false,
+		"phrase": "Power? Are you sure? I just want chicken.",
+		"choices": [
+			{ "answer": "It's for the greater good.", "next_id": 11 }
+		]
+	},
+	{
+		"id": 11,
+		"character": "Null",
+		"art": "null.txt",
+		"is_ending": false,
+		"phrase": "Warning: Boss fight probability rising. Prepare yourself emotionally.",
+		"choices": [
+			{ "answer": "Continue.", "next_id": 12 },
+			{ "answer": "Ask for a hint.", "next_id": 43 }
+		]
+	},
+	{
+		"id": 43,
+		"character": "Null",
+		"art": "null.txt",
+		"is_ending": false,
+		"phrase": "Hint: Butter melts. This is relevant… somehow.",
+		"choices": [
+			{ "answer": "Not helpful.", "next_id": 12 },
+			{ "answer": "Actually helpful.", "next_id": 12 }
+		]
+	},
+	{
+		"id": 12,
+		"character": "Forbidden Chicken",
+		"art": "chicken.txt",
+		"is_ending": false,
+		"phrase": "WHO DARES APPROACH THE BUTTERED ONE?",
+		"choices": [
+			{ "answer": "Challenge the chicken.", "next_id": 13 },
+			{ "answer": "Compliment the chicken.", "next_id": 14 }
+		]
+	},
+	{
+		"id": 13,
+		"character": "Forbidden Chicken",
+		"art": "chicken.txt",
+		"is_ending": false,
+		"phrase": "FOOL! YOU SHALL BE FRIED!",
+		"choices": [
+			{ "answer": "Run!", "next_id": 15 }
+		]
+	},
+	{
+		"id": 14,
+		"character": "Forbidden Chicken",
+		"art": "chicken.txt",
+		"is_ending": false,
+		"phrase": "A compliment? How rare… I am moved. You may pass.",
+		"choices": [
+			{ "answer": "Proceed.", "next_id": 15 }
+		]
+	},
+	{
+		"id": 15,
+		"character": "Null",
+		"art": "null.txt",
+		"is_ending": false,
+		"phrase": "Multiple paths detected… converging. The final choice is near.\nWhat do you seek now?",
+		"choices": [
+			{ "answer": "Friendship.", "next_id": 20 },
+			{ "answer": "Victory.", "next_id": 21 },
+			{ "answer": "Eat the chicken.", "next_id": 22 },
+			{ "answer": "Explore mysteries.", "next_id": 61 }
+		]
+	},
+	{
+		"id": 20,
+		"character": "Aboba",
+		"art": "ending_a.txt",
+		"is_ending": true,
+		"phrase": "Friendship is the best ending. And we didn't even get fried!",
+		"choices": [ ]
+	},
+	{
+		"id": 21,
+		"character": "Aboba",
+		"art": "ending_b.txt",
+		"is_ending": true,
+		"phrase": "Victory! But… I'm still hungry.",
+		"choices": []
+	},
+	{
+		"id": 22,
+		"character": "Forbidden Chicken",
+		"art": "ending_c.txt",
+		"is_ending": true,
+		"phrase": "NOOOO— wait I'm delicious actually.",
+		"choices": []
+	},
+	{
+		"id": 50,
+		"character": "Null",
+		"art": "null.txt",
+		"is_ending": false,
+		"phrase": "You selected an option that wasn’t supposed to exist.\nNow I must improvise.",
+		"choices": [
+			{ "answer": "Sorry?", "next_id": 51 },
+			{ "answer": "Proceed with glitch.", "next_id": 51 }
+		]
+	},
+	{
+		"id": 51,
+		"character": "Null",
+		"art": "ending_d.txt",
+		"is_ending": true,
+		"phrase": "Very well. I will rewrite this world.\nGoodbye chicken. Goodbye rules.\nWelcome to the Nullverse.",
+		"choices": []
+	},
+	{
+		"id": 60,
+		"character": "Cube",
+		"art": "cube.txt",
+		"is_ending": false,
+		"phrase": "Curiosity is dangerous… but intriguing. Follow me to the Library of Forgotten Things.",
+		"choices": [
+			{ "answer": "Let's see the secrets.", "next_id": 61 },
+			{ "answer": "No thanks, back to chicken.", "next_id": 15 }
+		]
+	},
+	{
+		"id": 61,
+		"character": "Library Guardian",
+		"art": "forest_spirit.txt",
+		"is_ending": false,
+		"phrase": "You may read any book, but each has a consequence.",
+		"choices": [
+			{ "answer": "Open the Book of Glitches.", "next_id": 62 },
+			{ "answer": "Open the Book of Happiness.", "next_id": 63 },
+			{ "answer": "Close all books.", "next_id": 15 }
+		]
+	},
+	{
+		"id": 62,
+		"character": "Null",
+		"art": "null.txt",
+		"is_ending": false,
+		"phrase": "You unleashed chaos! Reality is bending around you.",
+		"choices": [
+			{ "answer": "Embrace it.", "next_id": 64 },
+			{ "answer": "Run away!", "next_id": 15 }
+		]
+	},
+	{
+		"id": 63,
+		"character": "Aboba",
+		"art": "aboba.txt",
+		"is_ending": false,
+		"phrase": "Pure joy fills your soul. Everything seems brighter.",
+		"choices": [
+			{ "answer": "Bask in happiness.", "next_id": 65 }
+		]
+	},
+	{
+		"id": 64,
+		"character": "Null",
+		"art": "ending_e.txt",
+		"is_ending": true,
+		"phrase": "Reality collapses… you are now part of the glitch itself.",
+		"is_ending": false,
+		"choices": []
+	},
+	{
+		"id": 65,
+		"character": "Forest Spirit",
+		"art": "ending_f.txt",
+		"is_ending": true,
+		"phrase": "Happiness is fleeting, but this memory is yours to keep.",
+		"choices": []
 	}
 ]
+
