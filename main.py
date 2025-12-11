@@ -53,7 +53,6 @@ def load_assets(asset_folder: str) -> dict[str, str]:
 
     for filename in os.listdir(asset_folder):
         file_path = os.path.join(asset_folder, filename)
-        print(f'trying to read file: {filename}')
         if os.path.isfile(file_path):
             with open(file_path, "r", encoding="utf-8") as fp:
                 assets[filename] = fp.read()
