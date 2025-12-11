@@ -308,7 +308,6 @@
 		"art": "ending_e.txt",
 		"is_ending": true,
 		"phrase": "Reality collapses… you are now part of the glitch itself.",
-		"is_ending": false,
 		"choices": []
 	},
 	{
