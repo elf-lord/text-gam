@@ -1,0 +1,28 @@
+[
+	{
+		"id": 0,
+		"character": "Aboba",
+		"phrase": "I'm hungry...\nI can smell some buttery chicken around",
+		"choices": [
+			{
+				"answer": "Ok...",
+				"next_id": 1
+			},
+			{
+				"answer": "Let's find it!",
+				"next_id": 1
+			}
+		]
+	},
+	{
+		"id": 1,
+		"character": "Null",
+		"phrase": "...",
+		"choices": [
+			{
+				"answer": "...",
+				"next_id": 0
+			}
+		]
+	}
+]
