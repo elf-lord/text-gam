@@ -26,7 +26,7 @@
 		"character": "Null",
 		"art": "null.txt",
 		"is_ending": false,
-		"phrase": "The world is unstable. Someone forgot to initialize half the variables.\nProceed with caution… or don't. I don’t care.",
+		"phrase": "The world is unstable. Someone forgot to initialize half the variables.\nProceed with caution... or don't. I don't care.",
 		"choices": [
 			{ "answer": "Let's continue.", "next_id": 3 },
 			{ "answer": "Who are you REALLY?", "next_id": 40 }
@@ -37,7 +37,7 @@
 		"character": "Null",
 		"art": "null.txt",
 		"is_ending": false,
-		"phrase": "Define… myself? How bold. What do you think I am?",
+		"phrase": "Define... myself? How bold. What do you think I am?",
 		"choices": [
 			{ "answer": "You're a friend.", "next_id": 41 },
 			{ "answer": "You're a mistake.", "next_id": 42 }
@@ -48,7 +48,7 @@
 		"character": "Null",
 		"art": "null.txt",
 		"is_ending": false,
-		"phrase": "A friend…? That is a new role for me. Very well, I will guide you kindly.",
+		"phrase": "A friend...? That is a new role for me. Very well, I will guide you kindly.",
 		"choices": [
 			{ "answer": "Lead the way.", "next_id": 3 }
 		]
@@ -165,7 +165,7 @@
 		"character": "Null",
 		"art": "null.txt",
 		"is_ending": false,
-		"phrase": "Hint: Butter melts. This is relevant… somehow.",
+		"phrase": "Hint: Butter melts. This is relevant... somehow.",
 		"choices": [
 			{ "answer": "Not helpful.", "next_id": 12 },
 			{ "answer": "Actually helpful.", "next_id": 12 }
@@ -197,7 +197,7 @@
 		"character": "Forbidden Chicken",
 		"art": "chicken.txt",
 		"is_ending": false,
-		"phrase": "A compliment? How rare… I am moved. You may pass.",
+		"phrase": "A compliment? How rare... I am moved. You may pass.",
 		"choices": [
 			{ "answer": "Proceed.", "next_id": 15 }
 		]
@@ -207,7 +207,7 @@
 		"character": "Null",
 		"art": "null.txt",
 		"is_ending": false,
-		"phrase": "Multiple paths detected… converging. The final choice is near.\nWhat do you seek now?",
+		"phrase": "Multiple paths detected... converging. The final choice is near.\nWhat do you seek now?",
 		"choices": [
 			{ "answer": "Friendship.", "next_id": 20 },
 			{ "answer": "Victory.", "next_id": 21 },
@@ -228,7 +228,7 @@
 		"character": "Aboba",
 		"art": "ending_b.txt",
 		"is_ending": true,
-		"phrase": "Victory! But… I'm still hungry.",
+		"phrase": "Victory! But... I'm still hungry.",
 		"choices": []
 	},
 	{
@@ -263,7 +263,7 @@
 		"character": "Cube",
 		"art": "cube.txt",
 		"is_ending": false,
-		"phrase": "Curiosity is dangerous… but intriguing. Follow me to the Library of Forgotten Things.",
+		"phrase": "Curiosity is dangerous... but intriguing. Follow me to the Library of Forgotten Things.",
 		"choices": [
 			{ "answer": "Let's see the secrets.", "next_id": 61 },
 			{ "answer": "No thanks, back to chicken.", "next_id": 15 }
